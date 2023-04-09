@@ -47,7 +47,7 @@ PERIFLIB_SOURCES = \
 # binaries
 #######################################
 
-PREFIX = riscv-nuclei-elf-
+PREFIX = riscv64-elf-
 CC = $(PREFIX)gcc
 AS = $(PREFIX)gcc -x assembler-with-cpp
 CP = $(PREFIX)objcopy
