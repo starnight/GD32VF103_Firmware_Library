@@ -61,7 +61,7 @@ BIN = $(CP) -O binary -S
 # CFLAGS
 #######################################
 # cpu
-ARCH = -march=rv32imac -mabi=ilp32 -mcmodel=medlow
+ARCH = -march=rv32imafc -mabi=ilp32f -mcmodel=medlow
 
 # macros for gcc
 # AS defines
